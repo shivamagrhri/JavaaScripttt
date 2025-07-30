@@ -7,11 +7,11 @@ if (pr === null) {
     console.log("Invalid Input");
   } else {
     if (n > 0) {
-      var sum = 0;
+      var fact = 1;
       for (var i = 1; i <= n; i++) {
-        sum += i;
+        fact *= i;
       }
-      console.log(sum)
+      console.log(fact)
     } else {
       console.log("should be +ve & more than 0");
     }
