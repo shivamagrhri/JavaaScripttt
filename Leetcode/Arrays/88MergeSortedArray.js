@@ -1,5 +1,6 @@
 let arr1 = [1,2,3,0,0,0]
 let arr2 = [2,5,6]
+// Output: [1,2,2,3,5,6]
 // arr1 length -> m+n
 // arr2 length -> n
 // sorted array must be without extra space in arr1.
